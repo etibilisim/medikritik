@@ -1,0 +1,23 @@
+uuid: 76d82d89-3d30-4c6f-9328-77f3c9a719be
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manset_siralamasi
+    - node.type.kose_yazisi
+id: node.kose_yazisi.field_manset_siralamasi
+field_name: field_manset_siralamasi
+entity_type: node
+bundle: kose_yazisi
+label: 'Manşet Sıralaması'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,28 @@
+uuid: 66d6be71-6f7c-4d53-baac-21393703c823
+langcode: tr
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - conference_lite
+id: managedad_2
+theme: conference_lite
+region: featured
+weight: -18
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Managed ad'
+  provider: adsense
+  label_display: '0'
+  ad_slot: '1014239867'
+  ad_format: responsive
+  ad_width: null
+  ad_height: null
+  ad_shape:
+    auto: auto
+  ad_layout_key: ''
+  ad_align: center
+visibility: {  }

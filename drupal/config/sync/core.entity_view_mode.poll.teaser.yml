@@ -1,0 +1,12 @@
+uuid: ff51fdb6-3ffe-4801-8708-6db383f11c30
+langcode: tr
+status: true
+dependencies:
+  module:
+    - poll
+_core:
+  default_config_hash: KBJ_x1GRUQhqBleLQhbHwJ2zA2uVjhL9m6TO17_Knmg
+id: poll.teaser
+label: Teaser
+targetEntityType: poll
+cache: true

@@ -1,0 +1,23 @@
+uuid: eab47dc5-c3c3-48cc-9b75-bff6cfc9cb6a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manset_siralamasi
+    - node.type.haber
+id: node.haber.field_manset_siralamasi
+field_name: field_manset_siralamasi
+entity_type: node
+bundle: haber
+label: 'Manşet Sıralaması'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
