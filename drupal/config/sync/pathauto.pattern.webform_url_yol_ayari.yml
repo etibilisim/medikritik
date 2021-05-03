@@ -1,0 +1,22 @@
+uuid: 7a82cea8-c09b-469a-b476-af8bc86a8dec
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: webform_url_yol_ayari
+label: 'Webform URL Yol Ayari'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  8b45b7bd-8423-475d-b8bf-b04ee468efc6:
+    id: node_type
+    bundles:
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8b45b7bd-8423-475d-b8bf-b04ee468efc6
+selection_logic: and
+weight: -5
+relationships: {  }
