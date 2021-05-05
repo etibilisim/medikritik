@@ -1,160 +1,3 @@
-menus:
-  -
-    menu_name: footer
-    title: Haberler
-    parent: null
-    uri: 'internal:/haberler'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-47'
-    langcode: tr
-    uuid: 4dba95d1-5dd5-46d5-83e8-ee2989644903
-  -
-    menu_name: footer
-    title: 'Biz Kimiz?'
-    parent: null
-    uri: 'entity:node/3296'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-49'
-    langcode: tr
-    uuid: 50262e11-aa5f-4eb1-af95-e119ab0b5b2e
-  -
-    menu_name: footer
-    title: 'Destek Ol'
-    parent: null
-    uri: 'entity:node/3297'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-50'
-    langcode: tr
-    uuid: dd6c0029-9d06-4f3e-96db-da63f836d64b
-  -
-    menu_name: footer
-    title: Künye
-    parent: null
-    uri: 'entity:node/3316'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-48'
-    langcode: tr
-    uuid: f6feb516-e1ac-4502-aee6-5c08f03c24c3
-  -
-    menu_name: main
-    title: 'Biz Kimiz?'
-    parent: null
-    uri: 'entity:node/3296'
-    link_title: null
-    description: null
-    enabled: '0'
-    expanded: '0'
-    weight: '-44'
-    langcode: tr
-    uuid: 02eb431e-0329-47f4-b5a6-e063fc2ba6b8
-  -
-    menu_name: main
-    title: 'Destek Ol'
-    parent: null
-    uri: 'entity:node/3297'
-    link_title: null
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '-42'
-    langcode: tr
-    uuid: 7949957c-55e3-435e-a7af-67c689e02ca0
-  -
-    menu_name: main
-    title: Künye
-    parent: null
-    uri: 'entity:node/3316'
-    link_title: null
-    description: null
-    enabled: '0'
-    expanded: '0'
-    weight: '-43'
-    langcode: tr
-    uuid: ae9423a2-c8d4-4cac-a967-fa8ce0d0e898
-  -
-    menu_name: main
-    title: 'Orhan Çakır'
-    parent: 'views_view:views.yazarlar.page_1'
-    uri: 'internal:/users/orhan-cakir'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '3'
-    langcode: tr
-    uuid: 42371e8b-30ad-4b52-827c-52deae759d56
-  -
-    menu_name: main
-    title: 'Selahattin Kıyan'
-    parent: 'views_view:views.yazarlar.page_1'
-    uri: 'internal:/users/selahattin-kiyan'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: tr
-    uuid: 9abb1254-4031-4b0a-8efe-9ee7838bdf1e
-  -
-    menu_name: main
-    title: 'Erkin Göçmen'
-    parent: 'views_view:views.yazarlar.page_1'
-    uri: 'internal:/users/erkin-gocmen'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: tr
-    uuid: 3a3bb081-18e3-4ccc-82c3-a01cbae05ba1
-  -
-    menu_name: main
-    title: 'Hikmet Çevik'
-    parent: 'views_view:views.yazarlar.page_1'
-    uri: 'internal:/users/hikmet-cevik'
-    link_title: ''
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: tr
-    uuid: b873da56-b227-422a-9d8f-d0a2daeb2cd1
-  -
-    menu_name: main
-    title: 'Askıda Steteskop Öğrenci Kaydı'
-    parent: 'menu_link_content:7949957c-55e3-435e-a7af-67c689e02ca0'
-    uri: 'entity:node/3646'
-    link_title: null
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: tr
-    uuid: 510e0f69-5873-469d-b7b0-775aa432cd4f
-  -
-    menu_name: main
-    title: 'Askıda Steteskop Bağış'
-    parent: 'menu_link_content:7949957c-55e3-435e-a7af-67c689e02ca0'
-    uri: 'entity:node/3645'
-    link_title: null
-    description: null
-    enabled: '1'
-    expanded: '0'
-    weight: '0'
-    langcode: tr
-    uuid: 67c3df5b-6b6b-42a3-8f31-ee8539b6a243
 taxonomies:
   haberler:
     -
@@ -47213,3 +47056,172 @@ blocks:
           value: "<p><a class=\"twitter-timeline\" data-height=\"300\" href=\"https://twitter.com/medikritik?ref_src=twsrc%5Etfw\">medikritik Twitter</a> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></p>\r\n"
           summary: ''
           format: full_html
+menus:
+  -
+    menu_name: footer
+    title: Haberler
+    parent: null
+    uri: 'internal:/haberler'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: tr
+    uuid: 4dba95d1-5dd5-46d5-83e8-ee2989644903
+  -
+    menu_name: footer
+    title: 'Biz Kimiz?'
+    parent: null
+    uri: 'entity:node/3296'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: tr
+    uuid: 50262e11-aa5f-4eb1-af95-e119ab0b5b2e
+  -
+    menu_name: footer
+    title: 'Destek Ol'
+    parent: null
+    uri: 'entity:node/3297'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: tr
+    uuid: dd6c0029-9d06-4f3e-96db-da63f836d64b
+  -
+    menu_name: footer
+    title: Künye
+    parent: null
+    uri: 'entity:node/3316'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: tr
+    uuid: f6feb516-e1ac-4502-aee6-5c08f03c24c3
+  -
+    menu_name: main
+    title: 'Biz Kimiz?'
+    parent: null
+    uri: 'entity:node/3296'
+    link_title: null
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-45'
+    langcode: tr
+    uuid: 02eb431e-0329-47f4-b5a6-e063fc2ba6b8
+  -
+    menu_name: main
+    title: 'Destek Ol'
+    parent: null
+    uri: 'entity:node/3297'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-42'
+    langcode: tr
+    uuid: 7949957c-55e3-435e-a7af-67c689e02ca0
+  -
+    menu_name: main
+    title: Künye
+    parent: null
+    uri: 'entity:node/3316'
+    link_title: null
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-44'
+    langcode: tr
+    uuid: ae9423a2-c8d4-4cac-a967-fa8ce0d0e898
+  -
+    menu_name: main
+    title: 'Orhan Çakır'
+    parent: 'views_view:views.yazarlar.page_1'
+    uri: 'internal:/users/orhan-cakir'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: tr
+    uuid: 42371e8b-30ad-4b52-827c-52deae759d56
+  -
+    menu_name: main
+    title: 'Selahattin Kıyan'
+    parent: 'views_view:views.yazarlar.page_1'
+    uri: 'internal:/users/selahattin-kiyan'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: tr
+    uuid: 9abb1254-4031-4b0a-8efe-9ee7838bdf1e
+  -
+    menu_name: main
+    title: 'Erkin Göçmen'
+    parent: 'views_view:views.yazarlar.page_1'
+    uri: 'internal:/users/erkin-gocmen'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: tr
+    uuid: 3a3bb081-18e3-4ccc-82c3-a01cbae05ba1
+  -
+    menu_name: main
+    title: 'Hikmet Çevik'
+    parent: 'views_view:views.yazarlar.page_1'
+    uri: 'internal:/users/hikmet-cevik'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: tr
+    uuid: b873da56-b227-422a-9d8f-d0a2daeb2cd1
+  -
+    menu_name: main
+    title: 'Askıda Steteskop Öğrenci Kaydı'
+    parent: 'menu_link_content:7949957c-55e3-435e-a7af-67c689e02ca0'
+    uri: 'entity:node/3646'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: tr
+    uuid: 510e0f69-5873-469d-b7b0-775aa432cd4f
+  -
+    menu_name: main
+    title: 'Askıda Steteskop Bağış'
+    parent: 'menu_link_content:7949957c-55e3-435e-a7af-67c689e02ca0'
+    uri: 'entity:node/3645'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: tr
+    uuid: 67c3df5b-6b6b-42a3-8f31-ee8539b6a243
+  -
+    menu_name: main
+    title: 'Gönüllü ol'
+    parent: null
+    uri: 'entity:node/7210'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: tr
+    uuid: 5bd171d7-0739-4783-876c-34b58b75b21d

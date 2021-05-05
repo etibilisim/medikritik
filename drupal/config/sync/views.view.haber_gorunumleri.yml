@@ -6080,6 +6080,7 @@ display:
     display_options:
       display_extenders:
         simple_sitemap_display_extender:
+          variants: {  }
           index: false
           variant: null
           priority: '0.5'
@@ -6088,7 +6089,7 @@ display:
           max_links: 100
       path: saglikli-yasam
       menu:
-        type: normal
+        type: none
         title: 'Sağlıklı Yaşam'
         description: ''
         expanded: false
